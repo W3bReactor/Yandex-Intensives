@@ -1,0 +1,8 @@
+.link {
+    text-decoration: none;
+    color: var(--aqua-color);
+}
+
+.link_gray {
+    color: var(--gray-color);
+}

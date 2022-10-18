@@ -1,0 +1,53 @@
+.search {
+    margin-top: auto;
+    padding: 20px 0;
+}
+
+.search__top {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.search__form {
+    margin-left: 15px;
+}
+
+.search__box {
+    margin: 0 auto;
+    max-width: 650px;
+}
+.search__content {
+    margin: 35px 0 45px 0; 
+}
+
+.search__title {
+    font-weight: 400;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.search__desc {
+    font-size: 16px;
+}
+
+.search__list {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    row-gap: 20px; 
+}
+
+.search__item {
+    display: flex;
+    align-items: flex-start;
+    max-width: 300px;
+}
+
+.search__link {
+    margin-left: 10px;
+}
+
+.search__info {
+    margin-left: 5px;
+}

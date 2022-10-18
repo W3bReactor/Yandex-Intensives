@@ -1,0 +1,41 @@
+@import url('blocks/container.css');
+@import url('blocks/footer.css');
+@import url('blocks/search.css');
+@import url('blocks/page.css');
+@import url('blocks/logo.css');
+@import url('blocks/input.css');
+@import url('blocks/submit.css');
+@import url('blocks/link.css');
+@import url('blocks/form.css');
+@import url('blocks/icon.css');
+
+
+:root {
+    --aqua-color: #3a7ed8;
+    --yellow-color: #f2cc59;
+    --gray-color: #a2a0a3;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}

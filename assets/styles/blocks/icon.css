@@ -1,0 +1,10 @@
+.icon {
+    height: 16px;
+    width: 16px;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+.icon_small-radius {
+    border-radius: 5px;
+}

@@ -1,0 +1,15 @@
+.footer {
+    margin-top: auto;
+    padding: 20px 0;
+}
+
+.footer__list {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+}
+
+.footer__item:not(:last-child) {
+    margin-right: 15px;
+}
