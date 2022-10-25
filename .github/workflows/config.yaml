@@ -1,7 +1,7 @@
 name: Configuration
 
 on: 
-  commit:
+  push:
     branches: [ infrastructure ]
 
 jobs:
